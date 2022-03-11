@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.209" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.209" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/ic_close_white.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/line_horizontal_gray.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/line_horizontal_white.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/line_vertical.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/line_vertical_gray.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/line_vertical_white.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/round_corner_gradient_green.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/round_corner_gray.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/round_corner_green.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/round_corner_grey.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/round_corner_purple.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/drawable/round_corner_red.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/activity_main.xml" value="0.381025641025641" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/fragment_add_transaction.xml" value="0.33" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/fragment_currency_list.xml" value="0.33" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/fragment_dashboard.xml" value="0.2015625" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/item_balance.xml" value="0.38697916666666665" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/item_stock.xml" value="0.1" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/layout_add_tr_details.xml" value="0.38697916666666665" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/layout_add_tr_other_pairs_item.xml" value="0.2222222222222222" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/layout_currency_list_item.xml" value="0.2222222222222222" />
+        <entry key="..\:/Android Learning/SampleProjects/paysera/payseracurrencyexchanger/app/src/main/res/layout/layout_dialog.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

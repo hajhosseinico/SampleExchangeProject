@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">payseracurrencyexchanger</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_transaction">Add Transaction</string>
+
+    <string name="sell">Sell</string>
+    <string name="other">Other</string>
+    <string name="buy">Buy</string>
+    <string name="buy_price">Buy Amount</string>
+    <string name="date">Date</string>
+    <string name="amount">Sell Amount</string>
+    <string name="commission_fee">Commission Fee</string>
+    <string name="balance_list">Balance List</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="OK">OK</string>
+    <string name="change_transaction_pair">Change Transaction Pair</string>
+
+</resources>

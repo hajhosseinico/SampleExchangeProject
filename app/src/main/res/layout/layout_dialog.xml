@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+    <ImageView
+        android:id="@+id/imgDialogClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_white"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="@id/txtDialogTitle"
+        app:layout_constraintTop_toTopOf="@id/txtDialogTitle"
+        />
+
+    <TextView
+        android:id="@+id/txtDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/sans_bold"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:minHeight="100dp"
+        android:fontFamily="@font/sans_regular"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/colorGrayLight"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtDialogTitle" />
+
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/line_horizontal_white"
+        app:layout_constraintTop_toBottomOf="@id/txtDialogMessage"
+        />
+
+    <TextView
+        android:id="@+id/txtDialogOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:padding="12dp"
+        android:fontFamily="@font/sans_bold"
+        android:singleLine="true"
+        android:text="@string/OK"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewLine" />
+</androidx.constraintlayout.widget.ConstraintLayout>

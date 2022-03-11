@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:animateLayoutChanges="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/round_corner_gradient_green">
+
+        <TextView
+            android:id="@+id/txtCurrencyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/sans_bold"
+            android:singleLine="true"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/txtCurrencyBalance"
+          />
+
+        <TextView
+            android:id="@+id/txtCurrencyBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/sans_regular"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/line_horizontal_gray"
+            app:layout_constraintTop_toBottomOf="@id/txtCurrencyBalance"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <ImageView
+            android:id="@+id/row_symbol_ticker_img_dot"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:src="@drawable/ic_dot"
+            app:layout_constraintBottom_toBottomOf="@+id/viewLine"
+            app:layout_constraintEnd_toEndOf="@+id/viewLine"
+            app:layout_constraintTop_toTopOf="@+id/viewLine"
+            app:layout_constraintStart_toStartOf="@+id/viewLine"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

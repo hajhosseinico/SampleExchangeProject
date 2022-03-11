@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="placeholderColor">#292938</color>
+    <color name="app_black">#151523</color>
+
+    <color name="colorPrimary">#FF03DAC5</color>
+    <color name="colorPrimaryDark">#FF018786</color>
+    <color name="colorAccent">#FF03DAC5</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#888888</color>
+    <color name="colorGray2">#0FFFFFFF</color>
+    <color name="colorGrayLight">#C6C6DA</color>
+
+    <color name="purple">#404060</color>
+    <color name="purple_dark">#2D2D45</color>
+</resources>
