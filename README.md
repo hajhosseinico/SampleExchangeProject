@@ -1,17 +1,17 @@
-What is this project?
+# What is this project?
+
 A demo app which gets currency list from an API the currencies could be exchanged one by one conidering commision fee and other transaction policies.
 Moreover user's balances are save in dataBase.
-
-Main Features:
-Kotlin,
-MVVM Architecture,
-Hilt Injection, constrcutor injection,
-Live Data,
-View Model,
-Navigation Component,
-Room Persistance,
-Retrofit2,
-Constraint Layout,
-Recycler view Using DiffUtil,
-Screen Rotation,
-Generic API response
+# Main Features
+1. Kotlin,
+2. MVVM Architecture,
+3. Hilt Injection, constrcutor injection,
+4. Live Data,
+5. View Model,
+6. Navigation Component,
+7. Room Persistance,
+8. Retrofit2,
+9. Constraint Layout,
+10. Recycler view Using DiffUtil,
+11. Screen Rotation,
+12. Generic API response
